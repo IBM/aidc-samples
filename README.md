@@ -122,7 +122,7 @@ Our tool allows you to calculate the most optimial distribution and provide the 
 We sort the models by the best performance (average number of points per decision).
 Suprisingly, it may not be the most accurate models which perform best - this is due the fact that human can fill the uncertainty of the models.
 
-In the next steps we will compare the models, and apply more complex `cost model`.
+In the next steps we will compare the models, and apply more complex `performance model`.
 We can use the attributes of the model, to calculate the impact of each outcome, for example:
 ```
 # If Risk, we dont gain anything
