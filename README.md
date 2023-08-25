@@ -85,7 +85,7 @@ Please now copy the new cells from the [AutoAI flow](notebooks/AutoAI_flow.ipynb
 starting at "Finding the most optimal model with AIDC"
 
 ![finding](images/finding.png)
-
+<a id="performance"></a>
 Starting with library imports, we will analyze the AutoAI provided models using our unique algorithms.
 
 Initially we will determine how to best distribute the workload between human and AI,
@@ -157,6 +157,20 @@ We then move to deploying the model and saving the JSON representation of our `d
 
 <a id="byom"></a>
 ## Bring Your Own Model flow
+
+In this scenario, we will use the pre-existing model to produce 
+required dataset based on our [dataset without human output](data/credit_no_human.csv).
+
+Using the model, we obtain additional columns, namely<br>
+`mlClass` (the decision made by the model) and<br>
+`mlConfidence` (the probability that the transaction is a Risk) and combine it with the human results.
+
+Please see: [credit with human and ml](data/credit_human_ml.csv) for an example.
+
+We will run the [BYOM_flow](notebooks/BYOM_flow.ipynb) notebook.
+
+Similarly to the [AutoAI flow](#performance), we will start with default performance model <br>
+then define different values in the performance model and finally save the rules as JSON.
 
 <a id="wml"></a>
 ## Watson Machine Learning flow
