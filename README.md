@@ -266,6 +266,7 @@ To correct this, we need to upload the Feedback data to the model using the Eval
 You can upload the [dataset with human and machine learning outputs](data/credit_human_ml.csv).
 
 ![evaluate](images/evaluate.png)
+
 ![feedback](images/feedback.png)
 
 Running the 2 last steps of the notebook, should return:
