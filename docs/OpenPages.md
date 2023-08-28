@@ -47,19 +47,21 @@ and set the Tier of the corresponding model to Tier 1.
 
 ![open_issue](../images/open_issue.png)
 
+Tier needs to be configured using the Model Deployment ancestor:
+
 ![set_tier](../images/set_tier.png)
 
 After Publishing the Workflow, we can now run it on a Metric Value:
 
 ![start_roi_review](../images/start_roi_review.png)
 
-we can observe the object transition between the stages:
+and observe the object transition between the stages:
 
 ![open_issue_stage](../images/open_issue_stage.png)
 
 ![end_review](../images/end_review.png)
 
-Our model will change the Final Tier assignment:
+After completion, the Model will change the Final Tier assignment:
 
 ![tier1](../images/tier1.png) 
 
