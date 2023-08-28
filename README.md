@@ -26,6 +26,11 @@ Govern your model and build custom workflows
 AI Decision Coordination software analyses your data and calculates the success of tasks 
 that are completed by automated AI, human resources, or augmentation that combines the two.
 
+Our solution helps in obtaining the most optimal human-to-AI workload distribution and 
+calculating the return on investment given specific business guidelines.
+
+![roi](images/roi.png)
+
 The below flow chart demonstrates how AIDC can be used to determine 
 the benefits of using AI by involving IBM's AI Governance framework.
 

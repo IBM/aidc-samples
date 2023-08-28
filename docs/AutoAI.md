@@ -35,7 +35,7 @@ You will see that Deployment creation fails due to a missing Space id:
 
 Let's create a new Deployment space and copy it's GUID
 
-![deployment](images/deployment.png)
+![deployment](../images/deployment.png)
 ![guid](../images/guid.png)
 
 Coming back to the notebook, we can ignore the failed cell, and add a new cell at the end of the notebook
