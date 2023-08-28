@@ -82,12 +82,6 @@ As expected when the Machine Learning model is not sure about the decision, we c
 What's interesting is how different models will compliment humans.
 Our tool allows you to calculate the most optimial distribution and provide the statistical information to justify it.
 
-We can also see the improvement introduced by implementing the AIDC solution:
-
-![roi](../images/roi.png)
-
-We will see in the [OpenScale](#openscale) section how we can monitor the return on investment introduced by AIDC.
-
 We sort the models by the best performance (average number of points per decision).
 Suprisingly, it may not be the most accurate models which perform best - this is due the fact that human can fill the uncertainty of the models.
 
@@ -122,4 +116,17 @@ For some of the more accurate models, the distribution is close to 50/50:
 
 ![comparison](../images/comparison.png)
 
-We then move to deploying the model and saving the JSON representation of our `dispatch rules`.
+In the `Calculate ROI` we can see the improvement introduced by implementing the AIDC solution.
+
+ROI is measured as the sum of improvements over each decision between the current process (done by human) and the augmented
+human+AI process:
+
+![roi](../images/roi.png)
+
+The total improvement based on the dataset is calculated:
+
+![improvement](../images/improvement.png)
+
+We will later see in the [OpenScale](../docs/OpenScale#openscale) section how we can monitor the return on investment introduced by AIDC.
+
+Finally we move to deploying the model and saving the JSON representation of our `dispatch rules`.
