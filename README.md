@@ -5,20 +5,20 @@ AI Decision Coordination sample assets and notebooks.
 [Collecting a dataset](#dataset)<br>
 [Training a model](#model)<br>
 
-Build an optimized model based on a dataset:
 [IBM AutoAI flow](docs/AutoAI.md#autoai)<br>
+Build an optimized model based on a dataset
 
-Evaluate an existing Machine Learning model:
 [Bring Your Own Model flow](docs/BYOM.md#byom)<br>
+Evaluate an existing Machine Learning model
 
-Manage decisions made by a model:
 [Watson Machine Learning flow](docs/WML.md#wml)<br>
+Manage decisions made by a model
 
-Define monitoring for your model:
 [Watson OpenScale flow](docs/OpenScale.md#openscale)<br>
+Define monitoring for your model
 
-Govern your model and build custom workflows:
-[IBM OpenPages flow](docs/OpenPages.md#openpages)
+[IBM OpenPages flow](docs/OpenPages.md#openpages)<br>
+Govern your model and build custom workflows
 
 <a id="intro"></a>
 ## Introduction
