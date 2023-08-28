@@ -68,3 +68,6 @@ After completion, the Model will change the Final Tier assignment:
 and Issues will be opened as expected:
 
 ![final_dashboard](../images/final_dashboard.png) 
+
+Sample Workflow object can be found here:
+[workflow](../cp4d_assets/openpages-env-mig-082823104325.jar)
