@@ -13,4 +13,4 @@ Please see: [credit with human and ml](../data/credit_human_ml.csv) for an examp
 We will run the [BYOM_flow](../notebooks/BYOM_flow.ipynb) notebook.
 
 Similarly to the [AutoAI flow](#performance), we will start with default performance model <br>
-then define different values in the performance model and finally save the rules as JSON.
+then define different values in the performance model, calculate the ROI and finally save the rules as JSON.
