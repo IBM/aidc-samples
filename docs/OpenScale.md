@@ -37,3 +37,7 @@ You can upload the [dataset with human and machine learning outputs](data/credit
 Running the 2 last steps of the notebook, should return:
 
 ![second_run](../images/second_run.png)
+
+Navigating back to OpenScale interface, we can observe the corresponding information:
+
+![openscale_monitor](../images/openscale_monitor.png)
