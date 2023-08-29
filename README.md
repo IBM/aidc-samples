@@ -4,22 +4,12 @@ AI Decision Coordination sample assets and notebooks.
 [Introduction](#intro)<br>
 [Collecting a dataset](#dataset)<br>
 [Training a model](#model)<br>
-[Integrations with Cloud Pak for Data/IBM AI Governance](#model)<br>
 
-[IBM AutoAI flow](docs/AutoAI.md#autoai)<br>
-Build an optimized model based on a dataset
+[Running locally](docs/Local.md#local)<br>
+Experiment with AIDC functionallity locally
 
-[Bring Your Own Model flow](docs/BYOM.md#byom)<br>
-Evaluate an existing Machine Learning model
-
-[Watson Machine Learning flow](docs/WML.md#wml)<br>
-Manage decisions made by a model
-
-[Watson OpenScale flow](docs/OpenScale.md#openscale)<br>
-Define monitoring for your model
-
-[IBM OpenPages flow](docs/OpenPages.md#openpages)<br>
-Govern your model and build custom workflows
+[Integrations with Cloud Pak for Data/IBM AI Governance](docs/Integrations.md#integrations)<br>
+Integrate with several of IBM products to create end-to-end solution to govern your models.
 
 <a id="intro"></a>
 ## Introduction
@@ -42,17 +32,11 @@ the  target attribute (groundTruth) produced by experts, as well as decision mad
 
 Sample dataset is available in the data folder: [credit_with_human.csv](data/credit_with_human.csv)
 
+On top of the above, we need to also collect the response of the Machine Learning model.
+
 <a id="model"></a>
 ## Training a model
 
 Given the dataset we can train a model to predict the target attribute (in our scenario Risk/No Risk of granting the loan).
+This is needed to collect additional properties: `mlClass` (answer of the model) and `mlConfidence` (probability of the outcome).
 If you already have a model, please move to the [Bring Your Own Model flow](docs/BYOM.md#byom), otherwise let's see how [IBM's AutoAI can assist us with this task](docs/AutoAI.md#autoai).
-
-<a id="integrations"></a>
-## Integrations
-The below flow chart demonstrates how AIDC can be used to determine 
-the benefits of using AI by involving IBM's AI Governance framework.
-
-The described actions will be in the context of Cloud Pak for Data interface.
-
-![AIDC flows](images/aidc.png)
