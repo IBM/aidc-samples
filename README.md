@@ -25,7 +25,8 @@ calculating the return on investment given specific business guidelines.
 <a id="dataset"></a>
 ## Collecting a dataset.
 
-To utilize the solution we start with collecting the data. The dataset needs to include attributes involved in the decision process, 
+To utilize the solution we start with collecting the data. 
+The dataset needs to include attributes involved in the decision process, 
 the  target attribute (groundTruth) produced by experts, as well as decision made by human resource (hClass) in the current process.
 
 ![dataset](images/dataset.png)
