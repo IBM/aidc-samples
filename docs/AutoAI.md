@@ -127,6 +127,8 @@ The total improvement based on the dataset is calculated:
 
 ![improvement](../images/improvement.png)
 
-We will later see in the [OpenScale](OpenScale#openscale) section how we can monitor the return on investment introduced by AIDC.
+We will later see in the [OpenScale](OpenScale.md#openscale) section how we can monitor the return on investment introduced by AIDC.
 
 Finally we move to deploying the model and saving the JSON representation of our `dispatch rules`.
+
+This way we can use it in [Watson Machine Learning](WML.md).

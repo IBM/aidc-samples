@@ -7,7 +7,7 @@ using the provided [Dockerfile](../cp4d_assets/Dockerfile).
 We also need the JSON representation of AIDC model from [AutoAI](../docs/AutoAI.md#autoai) or processing your [own model](../docs/BYOM.md#byom).
 
 Following the [WML_flow.ipynb notebook](../notebooks/WML_flow.ipynb) we will load the model, 
-make sure it applies the decision table we have selected, and then deploy it.
+make sure it applies the decision table we have selected, and then deploy it as a function.
 
 This will allow all the future requests to the model be handled by our `dispatch` function.
 
@@ -48,3 +48,5 @@ If we modify the data accordingly, the result may be:
 ```
 {'predictions': [{'fields': ['AIDC Decision'], 'values': [[{'toolToUse': 'ml', 'type': 'ml', 'confidence': 0.8580362993842072, 'outcome': 'No Risk'}]]}]}
 ```
+
+Having deployed the function, see how you can use [Watson OpenScale](OpenScale.md) to monitor the model.
