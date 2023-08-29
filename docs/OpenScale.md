@@ -41,3 +41,5 @@ Running the 2 last steps of the notebook, should return:
 Navigating back to OpenScale interface, we can observe the corresponding information:
 
 ![openscale_monitor](../images/openscale_monitor.png)
+
+We can now use the defined metrics in [OpenPages](OpenPages.md#openpages)

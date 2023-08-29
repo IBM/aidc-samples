@@ -14,3 +14,5 @@ We will run the [BYOM_flow](../notebooks/BYOM_flow.ipynb) notebook.
 
 Similarly to the [AutoAI flow](#performance), we will start with default performance model <br>
 then define different values in the performance model, calculate the ROI and finally save the rules as JSON.
+
+Follow the [OpenScale](OpenScale#openscale) section to see how we can monitor the return on investment introduced by AIDC.
