@@ -22,6 +22,10 @@ calculating the return on investment given specific business guidelines.
 
 ![roi2](images/roi2.png)
 
+Using the suggested distribution, we can calculate the predicted improvements which AI would bring:
+
+![improvement](images/improvement.png)
+
 <a id="dataset"></a>
 ## Collecting a dataset.
 
