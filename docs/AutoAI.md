@@ -43,7 +43,7 @@ as we will now introduce AIDC logic to continue the model creation.
 
 ![new cell](../images/insert_cell.png)
 
-Please now copy the new cells from the [AutoAI flow](notebooks/AutoAI_flow.ipynb) notebook,
+Please now copy the new cells from the [AutoAI flow](../notebooks/AutoAI_flow.ipynb) notebook,
 starting at "Finding the most optimal model with AIDC"
 
 ![finding](../images/finding.png)
