@@ -20,7 +20,11 @@ that are completed by automated AI, human resources, or augmentation that combin
 Our solution helps in obtaining the most optimal human-to-AI workload distribution and 
 calculating the return on investment given specific business guidelines.
 
+Examples:
+
 ![roi2](images/roi2.png)
+
+![roi1](images/roi1.png)
 
 Using the suggested distribution, we can calculate the predicted improvements which AI would bring:
 
