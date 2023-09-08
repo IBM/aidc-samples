@@ -6,11 +6,7 @@ AI Decision Coordination sample assets and notebooks.
 [Examples](#examples)<br>
 [Collecting a dataset](#dataset)<br>
 [Training a model](#model)<br>
-
-[Running locally](docs/Local.md#local): Experiment with AIDC functionallity locally<br>
-
-[Integrations with Cloud Pak for Data/IBM AI Governance](docs/Integrations.md#integrations)<br>
-Integrate with several of IBM products to create end-to-end solution to govern your models.
+[Using the solution](#using)<br>
 
 <a id="intro"></a>
 ## Introduction
@@ -73,4 +69,15 @@ On top of the above, we need to also collect the response of the Machine Learnin
 
 With the provided dataset, we can train a model to predict the target attribute, which in our case is the risk (Risk/No Risk) associated with granting a loan. To gather additional information, we need to capture two properties: mlClass (the model's prediction) and mlConfidence (the probability associated with the prediction).
 
-If you already have a model, please proceed to the [Bring Your Own Model flow](docs/BYOM.md#byom).If not, let's explore how [IBM's AutoAI can assist us in this task](docs/AutoAI.md#autoai).
+If you already have a model, please proceed to the [Bring Your Own Model flow](docs/BYOM.md#byom).
+
+If not, let's explore how [IBM's AutoAI can assist us in this task](docs/AutoAI.md#autoai).
+
+<a id="using"></a>
+## Using the solution
+
+[Running locally](docs/Local.md#local)<br>
+Experiment with AIDC functionallity locally<br>
+
+[Integrations with Cloud Pak for Data/IBM AI Governance](docs/Integrations.md#integrations)<br>
+Integrate with several of IBM products to create end-to-end solution to govern your models.
