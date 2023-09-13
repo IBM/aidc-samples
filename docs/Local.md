@@ -25,7 +25,7 @@ source aidc/bin/activate
 
 python3 -m pip install pandas
 python3 -m pip install matplotlib
-python3 -m pip install aidc-1.3.zip
+python3 -m pip install aidc-1.4.zip
 ```
 
 You can now use the Python environment for example in Visual Studio Code:
