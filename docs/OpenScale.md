@@ -28,7 +28,7 @@ Running th notebook for the first time, will result in 0s as the metrics' values
 ![first_run](../images/first_run.png)
 
 To correct this, we need to upload the Feedback data to the model using the Evaluate function of Watson OpenScale.
-You can upload the [dataset with human and machine learning outputs](data/credit_human_ml.csv).
+You can upload the [dataset with human and machine learning outputs](../data/credit_human_ml.csv).
 
 ![evaluate](../images/evaluate.png)
 
