@@ -112,17 +112,15 @@ based on the defined `performance matrix` depends on human in almost quarter of 
 
 For some of the more accurate models, the distribution is close to 50/50:
 
-`f confidence <28.39%: use ml else if confidence <81.765%: use human else use ml`
+`if confidence <28.39%: use ml else if confidence <81.765%: use human else use ml`
 
 ![comparison](../images/comparison.png)
 
+<img align="right" width="130" height="130" src="../images/roi.png"> 
 In the `Calculate ROI` we can see the improvement introduced by implementing the AIDC solution.
-
 ROI is measured as the sum of improvements over each decision between the current process (done by human) and the augmented
-human+AI process:
-
-![roi](../images/roi.png)
-
+human+AI process.
+<div style="clear: both;"></div><br>
 The total improvement based on the dataset is calculated:
 
 ![improvement](../images/improvement.png)

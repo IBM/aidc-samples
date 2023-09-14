@@ -2,7 +2,7 @@
 ## Bring Your Own Model flow
 
 In this scenario, we will use the pre-existing model to produce 
-required dataset based on our [dataset without human output](data/credit_no_human.csv).
+required dataset based on our [dataset without human output](../data/credit_no_human.csv).
 
 Using the model, we obtain additional columns, namely<br>
 `mlClass` (the decision made by the model) and<br>
