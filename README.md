@@ -76,6 +76,9 @@ If not, let's explore how [IBM's AutoAI can assist us in this task](docs/AutoAI.
 <a id="using"></a>
 ## Using the solution
 
+To get access to the solution, please contact:
+[AI Decision Coordination team](https://aidecisioncoordination.com/)
+
 [Running locally](docs/Local.md#local)<br>
 Experiment with AIDC functionallity locally<br>
 
