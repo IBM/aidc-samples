@@ -1,12 +1,14 @@
 # IBM AI Decision Coordination samples
 AI Decision Coordination sample assets and notebooks.
 
+
 [Introduction](#intro)<br>
 [Key differentiators](#key)<br>
 [Examples](#examples)<br>
 [Collecting a dataset](#dataset)<br>
 [Training a model](#model)<br>
 [Using the solution](#using)<br>
+[Contact](#contact)<br>
 
 <a id="intro"></a>
 ## Introduction
@@ -84,3 +86,13 @@ Experiment with AIDC functionallity locally<br>
 
 [Integrations with Cloud Pak for Data/IBM AI Governance](docs/Integrations.md#integrations)<br>
 Integrate with several of IBM products to create end-to-end solution to govern your models.
+
+<a id="contact"></a>
+## Contact
+
+Please visit:
+
+[AI Decision Coordination website](https://aidecisioncoordination.com)
+
+or contact us directly at:
+AIDC.Contact@ibm.com
