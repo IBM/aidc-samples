@@ -25,7 +25,7 @@ source aidc/bin/activate
 
 python3 -m pip install pandas
 python3 -m pip install matplotlib
-python3 -m pip install aidc-1.4.zip
+python3 -m pip install aidc-2.0.zip
 
 3) In case of large datasets, please import the customized javascript module (with larger timeouts) and extend Node default settings:
     
@@ -33,8 +33,8 @@ export NODE_OPTIONS=--max-old-space-size=4092
 or withing a notebook:
 %env NODE_OPTIONS=--max-old-space-size=4092
 
-!pip install /project_data/data_asset/javascript-2023.1.4.zip
-!pip install /project_data/data_asset/aidc-1.4.zip;
+!pip install /project_data/data_asset/javascript-2023.2.0.zip
+!pip install /project_data/data_asset/aidc-2.0.zip;
 ```
 
 You can now use the Python environment for example in Visual Studio Code:
