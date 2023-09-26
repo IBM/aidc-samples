@@ -78,9 +78,6 @@ If not, let's explore how [IBM's AutoAI can assist us in this task](docs/AutoAI.
 <a id="using"></a>
 ## Using the solution
 
-To get access to the solution, please contact:
-[AI Decision Coordination team](https://aidecisioncoordination.com/)
-
 [Running locally](docs/Local.md#local)<br>
 Experiment with AIDC functionallity locally<br>
 
@@ -90,9 +87,5 @@ Integrate with several of IBM products to create end-to-end solution to govern y
 <a id="contact"></a>
 ## Contact
 
-Please visit:
-
-[AI Decision Coordination website](https://aidecisioncoordination.com)
-
-or contact us directly at:
+Please contact us at:
 AIDC.Contact@ibm.com
