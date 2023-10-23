@@ -84,7 +84,7 @@ Experiment with AIDC functionallity locally<br>
 [Integrations with Cloud Pak for Data/IBM AI Governance](docs/Integrations.md#integrations)<br>
 Integrate with several of IBM products to create end-to-end solution to govern your models.
 
-[Running on IBM Cloud](docs/Cloud.md)
+[Running on IBM Cloud](docs/Cloud.md)<br>
 Run the solution on IBM Cloud.
 
 <a id="contact"></a>
