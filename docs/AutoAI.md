@@ -1,7 +1,7 @@
 <a id="autoai"></a>
 ## AutoAI flow
 
-We start with creating an IBM WatsonStudio project and uploading the necessary datasets:
+We start with creating an IBM Watson Studio project and uploading the necessary datasets:
 
 Complete file with human results:
 [credit_with_human.csv](../data/credit_with_human.csv)
