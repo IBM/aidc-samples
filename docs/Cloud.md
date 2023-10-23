@@ -2,7 +2,7 @@
 
     You can use our [AutoAI steps](AutoAI.md) to build and deploy a model on [Watson Studio on IBM Cloud](https://cloud.ibm.com/catalog/services/watson-studio)
 
-2) Deploy [Watson OpenScale on IBM Cloud] (https://cloud.ibm.com/catalog/services/watson-openscale)
+2) Deploy [Watson OpenScale on IBM Cloud](https://cloud.ibm.com/catalog/services/watson-openscale)
 
 3) Update the WOS_CREDENTIALS section in [app.py](../cloud_assets/app.py)
 
